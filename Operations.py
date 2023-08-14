@@ -31,3 +31,10 @@ x = math.sqrt(64)
 print(x)
 
 print(math.sqrt(17**2-8**2))
+
+#pythagroem threorm
+print(f"Question 1 = {str(math.sqrt(13**2-12**2))}")
+print(f"Question 2 = {str(math.sqrt(14**2+48**2))}")
+print(f"Question 3 = {str(math.sqrt(21**2+72**2))}")
+print(f"Question 4 = {str(math.sqrt(8**2+6**2))}")
+print(f"Question 5 = {str(math.sqrt(5**2-4**2))}")
