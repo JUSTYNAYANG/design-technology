@@ -1,3 +1,4 @@
+# >< signs
 max_speed = int(input("What is the maximium speed of your car? "))
 if max_speed < 180:
     print("It is an old car.")
@@ -9,7 +10,7 @@ else:
     print("Vroom, sports car!")
 
 
-
+#movie entry
 print("This is the line to see the movie 'Super Zombie Massacre'.")
 movie = input("What is your favorite movie genre? \n"
               "(action, adventure, comedy, drama, fantasy, horror, romance, science fiction) \n ")
@@ -48,3 +49,10 @@ else:
               "romantic?  The movie 'Elemental' is also in the cinema this month. ")
     else:
         print("Welcome to the massacre. Try your best to survive.")
+
+#tuple recommendation
+movie1= ("Men in Black", "action")
+if movie1[1] == "action":
+    print("'Men in Black' seems to be a good action movie for you! ")
+else:
+    ("Enjoy your day!")
