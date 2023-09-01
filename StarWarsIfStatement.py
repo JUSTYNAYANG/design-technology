@@ -10,17 +10,17 @@ def starwars(n, w, h, q):
     if b < 15:
         c = "very severely underweight"
         d = Fore.YELLOW + "#"
-        lw = Style.RESET_ALL + "You need to gain " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to gain " + str(abs(b - 18.5 * h) + "kg."
 
     elif b < 16:
         c = "severely underweight"
         d = Fore.YELLOW + "##"
-        lw = Style.RESET_ALL + "You need to gain " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to gain " + str(abs(b - 18.5 * h) + "kg."
 
     elif b < 18.5:
         c = "underweight"
         d = Fore.YELLOW + "###"
-        lw = Style.RESET_ALL + "You need to gain " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to gain " + str(abs(b - 18.5 * h) + "kg."
 
     elif b < 25:
         c = "normal/healthy weight"
@@ -30,22 +30,22 @@ def starwars(n, w, h, q):
     elif b < 30:
         c = "overweight"
         d = Fore.RED + "#####"
-        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * h) + "kg."
 
     elif b < 35:
         c = "moderately obese"
         d = Fore.RED + "######"
-        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * h) + "kg."
 
     elif b < 40:
         c = "severely obese"
         d = Fore.RED + "#######"
-        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * h) + "kg."
 
     else:
         c = "very severely obese"
         d = Fore.RED + "########"
-        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * w) + "kg."
+        lw = Style.RESET_ALL + "You need to lose " + str(abs(b - 18.5 * h) + "kg."
 
     e = Style.RESET_ALL + "########"
 
